@@ -2,6 +2,7 @@ enabled: true
 id: "home"
 
 content:
+  svg: "illustrations/undraw_learning_re_32qv.svg"
   title: "Empower your team **to solve**, not just code."
   text: "Are you ready to supercharge your development process? \n
     Look no further! **GoBP** is here to revolutionize the way you build web apps."

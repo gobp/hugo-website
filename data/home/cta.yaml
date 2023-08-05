@@ -3,7 +3,7 @@ id: "cta"
 
 content:
   title: "Join Our Community for Updates and Insights"
-  image: "images/services-web-development.png"
+  svg: "illustrations/undraw_contact_us_re_4qqt.svg"
   button:
     label: "Let's talk"
     url: "#"
