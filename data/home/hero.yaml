@@ -1,9 +1,10 @@
 enabled: true
-id: "hero"
+id: "home"
 
 content:
-  title: "How to **level up** your business"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "Empower your team **to solve**, not just code."
+  text: "Are you ready to supercharge your development process? \n
+    Look no further! **GoBP** is here to revolutionize the way you build web apps."
 
   buttonPrimary:
     label: "How we work"

@@ -1,0 +1,28 @@
+{{ if .enabled }}
+<section id="{{ .id }}" class="section testimonials py-5">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12 col-xl-6">
+        {{ with .content.title }}
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        {{ end }} {{ with .content.text }}
+        <p class="text-black-61 text-center pb-3">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    <ol class="list-group list-group-numbered  list-group-flush">
+      {{ range $i, $e := .content.list }}
+      <li
+        class="list-group-item d-flex justify-content-between align-items-start"
+      >
+        <div class="ms-2 me-auto">
+          {{ with $e.text }}
+          <div class="fw-bold">{{.}}</div>
+          {{ end }} {{ with $e.description }}{{ . }}{{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+{{ end }}

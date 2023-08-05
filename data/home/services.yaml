@@ -1,27 +1,48 @@
 enabled: true
-id: "services"
+id: "features"
 
 content:
-  title: "Our main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "Key Features"
+  text: "Unleash the Power of Our Battery-Included Solution"
   cards:
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
-      button:
-        label: "Learn more"
-        url: "#"
+    - title: "Architecture"
+      text: "Modern architecture to create maintainable software solutions."
+      # image: "images/services-web-development.png"
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
-      button:
-        label: "Learn more"
-        url: "#"
+    - title: "Data filtering"
+      text: "Automatically filter on querying from the database to easily implement patterns like soft-delete and multi-tenancy."
+      # image: "images/services-web-development.png"
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
-      button:
-        label: "Learn more"
-        url: "#"
+    - title: "Cross Cutting Concerns"
+      text: "Don't repeat yourself to implement all this common stuff again & again. Focus on your business code and let ABP automate them by conventions."
+      # image: "images/services-web-development.png"
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    - title: "Authentication & Authorization"
+      text: "Rich authentication & authorization options. Provides an extensible & detailed permission system."
+      # image: "images/services-web-development.png"
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    - title: "Audit Logging"
+      text: "Automatically trace all the operations and data changes in your system."
+      # image: "images/services-web-development.png"
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    - title: "Well Documented"
+      text: "Compherensive documentation and jump start tutorials."
+      # image: "images/services-web-development.png"
+      # button:
+      #   label: "Learn more"
+      #   url: "#"

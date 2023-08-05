@@ -1,0 +1,31 @@
+enabled: true
+id: "why"
+
+content:
+    title: "Why Gobp?"
+    text: "GoBP is a complete infrastructure to create modern web applications\n
+        by following the best practices and conventions of software development."
+
+    list:
+        - text: "Effortless Development"
+          description: "Simplify your workflow with GoBP's pre-built features,\n
+              enabling rapid development while ensuring high performance and security."
+
+        - text: "Comprehensive Inclusions"
+          description:
+              "GoBP offers out-of-the-box essentials like authentication,\n
+              authorization, and user management, freeing you to focus on unique app logic."
+
+        - text: "Documentation that Empowers"
+          description:
+              "Navigate with ease. GoBP's comprehensive documentation guides developers through setup,\n
+              usage, and advanced customization, accelerating your learning curve."
+
+        - text: "Future-Proof Foundation"
+          description: "Start strong with Golang's reliability.\n
+              GoBP's solid boilerplate sets the stage for scalability and smooth web app evolution."
+
+        - text: "Continuous Improvement"
+          description: "Experience ongoing enhancements.\n
+              GoBP's dedicated team ensures regular updates, keeping your framework up-to-date\n
+              with the latest best practices and features."
