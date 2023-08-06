@@ -22,7 +22,7 @@ content:
       #   url: "#"
 
     - title: "Cross Cutting Concerns"
-      text: "Don't repeat yourself to implement all this common stuff again & again. Focus on your business code and let ABP automate them by conventions."
+      text: "Don't repeat yourself to implement all this common stuff again & again. Focus on your business code and let GoBP automate them by conventions."
       svg: "illustrations/undraw_done_checking_re_6vyx.svg"
       # image: "images/services-web-development.png"
       # button:

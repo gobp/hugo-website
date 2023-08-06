@@ -6,4 +6,4 @@ content:
   svg: "illustrations/undraw_contact_us_re_4qqt.svg"
   button:
     label: "Let's talk"
-    url: "#"
+    url: "/contact"
