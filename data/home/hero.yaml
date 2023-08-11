@@ -13,5 +13,5 @@ content:
 
   buttonSecondary:
     label: "Let's talk"
-    url: "/contact"
+    url: "/#contact"
 
