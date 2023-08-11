@@ -41,12 +41,12 @@ menus:
       url: "/#features"
       weight: 2
 
-    - name: "Why GoBP?"
-      url: "/#why"
-      weight: 3
+    # - name: "Why GoBP?"
+    #   url: "/#why"
+    #   weight: 3
 
     - name: "Contact"
-      url: "/contact"
+      url: "/#contact"
       weight: 4
 
     - name: "Blog"
@@ -54,8 +54,8 @@ menus:
       weight: 5
 
   buttons:
-    - name: "Book a call"
-      url: "/#"
+    - name: "Have a seat"
+      url: "/#contact"
       weight: 5
       pre: "btn btn-primary text-light"
 
@@ -68,12 +68,12 @@ menus:
       url: "/#features"
       weight: 2
 
-    - name: "Why GoBP?"
-      url: "/#why"
-      weight: 3
+    # - name: "Why GoBP?"
+    #   url: "/#why"
+    #   weight: 3
 
     - name: "Contact"
-      url: "/contact"
+      url: "/#contact"
       weight: 4
 
     - name: "Blog"

@@ -1,9 +1,9 @@
 enabled: true
-id: "cta"
+id: "contact"
 
 content:
   title: "Join Our Community for Updates and Insights"
   svg: "illustrations/undraw_contact_us_re_4qqt.svg"
   button:
     label: "Let's talk"
-    url: "/contact"
+    url: "/#contact"

@@ -1,0 +1,214 @@
+<body>
+  <form class="row g-3" name="contact" method="POST" data-netlify="true">
+    <div class="col-12">
+      <label for="fullName"
+        >What's your name?<span class="text-danger">*</span></label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="fullName"
+        name="fullName"
+        required
+      />
+    </div>
+
+    <div class="col-12">
+      <label for="email"
+        >Your best email<span class="text-danger">*</span></label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        required
+      />
+    </div>
+
+    <div class="col-md-6">
+      <label for="segment">Segment <span class="text-danger">*</span></label>
+      <select class="form-control" id="segment" name="segment" required>
+        <option value="" disabled selected>Select a segment</option>
+        <option value="Marketing and Advertising Agency">
+          Marketing and Advertising Agency
+        </option>
+        <option value="Food and Dining">Food and Dining</option>
+        <option value="Consulting and Training">Consulting and Training</option>
+        <option value="Education and Teaching">Education and Teaching</option>
+        <option value="Health and Beauty">Health and Beauty</option>
+        <option value="Software and Cloud">Software and Cloud</option>
+        <option value="Tourism and Leisure">Tourism and Leisure</option>
+        <option value="Engineering and Industry">
+          Engineering and Industry
+        </option>
+        <option value="Entertainment and Recreation">
+          Entertainment and Recreation
+        </option>
+        <option value="Events (Online/In-person)">
+          Events (Online/In-person)
+        </option>
+        <option value="Financial, Legal, and Related">
+          Financial, Legal, and Related
+        </option>
+        <option value="Government and Public Organizations">
+          Government and Public Organizations
+        </option>
+        <option value="Hardware and Electronics">
+          Hardware and Electronics
+        </option>
+        <option value="Real Estate">Real Estate</option>
+        <option value="Media and Communication">Media and Communication</option>
+        <option value="Fashion">Fashion</option>
+        <option value="Non-profit Organization (NGO)">
+          Non-profit Organization (NGO)
+        </option>
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <label for="department"
+        >Department <span class="text-danger">*</span></label
+      >
+      <select class="form-control" id="department" name="department" required>
+        <option value="" disabled selected>Select a department</option>
+        <option value="Technology">Technology</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Sales">Sales</option>
+        <option value="Human Resources / People">
+          Human Resources / People
+        </option>
+        <option value="Finance / Accounting">Finance / Accounting</option>
+        <option value="Operations">Operations</option>
+        <option value="Logistics">Logistics</option>
+        <option value="Customer Service / Support">
+          Customer Service / Support
+        </option>
+        <option value="Design / Creative">Design / Creative</option>
+        <option value="Production">Production</option>
+        <option value="Legal">Legal</option>
+        <option value="Innovation">Innovation</option>
+        <option value="Administrative">Administrative</option>
+        <option value="Product">Product</option>
+        <!-- Add other options for the "Department" field here -->
+      </select>
+    </div>
+
+    <div class="col-12">
+      <label for="companyWebsite"
+        >Company Website <span class="text-danger">*</span></label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="companyWebsite"
+        name="companyWebsite"
+        required
+      />
+    </div>
+
+    <div class="col-12">
+      <label for="currentFramework" aria-describedby="currentFrameworkHelp"
+        >What's your current framework?</label
+      >
+      <!-- <div id="currentFrameworkHelp" class="form-text fs-6">
+        .Net Framework, Express, Django, Gin, Fiber, and others
+      </div> -->
+      <input
+        placeholder=".Net Framework, Express, Django, Gin, Fiber, and others"
+        type="text"
+        class="form-control"
+        id="currentFramework"
+        name="currentFramework"
+      />
+    </div>
+
+    <div class="col-12">
+      <label for="currentDatabase" aria-describedby="currentDatabaseHelp"
+        >What're using as database?</label
+      >
+      <!-- <div id="currentDatabaseHelp" class="form-text fs-6">
+        Postgres, MySQL, DynamoDB, MongoDB, and others
+      </div> -->
+      <input
+        placeholder="Postgres, MySQL, DynamoDB, MongoDB, and others"
+        type="text"
+        class="form-control"
+        id="currentDatabase"
+        name="currentDatabase"
+      />
+    </div>
+
+    <div class="col-12">
+      <label for="currentStack" aria-describedby="currentCloudProviderHelp"
+        >What stack you use now?</label
+      >
+      <!-- <div id="currentStackHelp" class="form-text fs-6">
+        LAMP, MEAN, MERN, Ruby on Rails, .Net, and others
+      </div> -->
+      <input
+        placeholder="LAMP, MEAN, MERN, Ruby on Rails, .Net, and others"
+        type="text"
+        class="form-control"
+        id="currentStack"
+        name="currentStack"
+      />
+    </div>
+
+    <div class="col-12">
+      <label
+        for="currentCloudProvider"
+        aria-describedby="currentCloudProviderHelp"
+        >And your most used cloud provider?</label
+      >
+      <!-- <div id="currentCloudProviderHelp" class="form-text fs-6">
+        Azure, AWS, IBM, GCP, and others
+      </div> -->
+      <input
+        placeholder="Azure, AWS, IBM, GCP, and others"
+        type="text"
+        class="form-control"
+        id="currentCloudProvider"
+        name="currentCloudProvider"
+      />
+    </div>
+
+    <div class="col-12">
+      <label
+        for="implementationChallenge"
+        aria-describedby="implementationChallengeHelp"
+        >Implementation Challenge</label
+      >
+      <!-- <div id="implementationChallengeHelp" class="form-text fs-6">
+        The feature or functionality that I found most challenging to implement
+        on my own.
+      </div> -->
+      <textarea
+        placeholder="The feature or functionality that I found most challenging to implement on my own"
+        class="form-control"
+        id="implementationChallenge"
+        name="implementationChallenge"
+        rows="3"
+      ></textarea>
+    </div>
+
+    <div class="col-12">
+      <label for="currentProject" aria-describedby="currentProjectHelp"
+        >Current Project / Issue</label
+      >
+      <!-- <div id="currentProjectHelp" class="form-text fs-6">
+        A brief description of the project I am currently working on or an issue
+        I am trying to solve.
+      </div> -->
+      <textarea
+        placeholder="A brief description of the project I am currently working on or an issue I am trying to solve"
+        class="form-control"
+        id="currentProject"
+        name="currentProject"
+        rows="3"
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+  </form>
+</body>
