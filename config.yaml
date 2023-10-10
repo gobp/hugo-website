@@ -12,9 +12,9 @@ params:
   title: "GoBP"
   description: "GoBP is a complete infrastructure to create modern web applications by following the best practices and conventions of software development."
   images: 
-    - "images/hero-image.png"
+    - "images/logo.png"
 
-  logo: "arrow-up.png"
+  logo: "logo.png"
 
   favicons:
     themeColor: "#00ADD8"
