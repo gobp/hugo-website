@@ -5,6 +5,7 @@
         <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
           {{ with .content.image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
           {{ with .content.svg }}{{ partial . }}{{ end }}
+          {{ with .content.partial }}{{ partial . }}{{ end }}
         </div>
         <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
           {{ with .content.title }}

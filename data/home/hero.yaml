@@ -2,16 +2,17 @@ enabled: true
 id: "home"
 
 content:
-  svg: "illustrations/undraw_learning_re_32qv.svg"
+  # svg: "illustrations/undraw_learning_re_32qv.svg"
+  partial: utilities/contact.html
   title: "Empower your team **to solve**, not just code."
   text: "Are you ready to supercharge your development process? \n
     Look no further! **GoBP** is here to revolutionize the way you build web apps."
 
-  buttonPrimary:
-    label: "How we work"
-    url: "#"
+  # buttonPrimary:
+  #   label: "How we work"
+  #   url: "#"
 
-  buttonSecondary:
-    label: "Let's talk"
-    url: "/#contact"
+  # buttonSecondary:
+  #   label: "Let's talk"
+  #   url: "/#contact"
 
